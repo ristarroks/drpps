@@ -6,14 +6,12 @@ import gpay from "../assets/google-pay-icon.png";
 import paytm from "../assets/paytm-icon.png";
 import { useLocation } from "react-router-dom";
 
-const Rechargecenter = () => {
-  const navigate = useNavigate();
-
-  const handleRecharge = (event) => {
-    const money = event.target.id;
-    navigate('/payment', { state: { money: money } });
-    console.log(money)
-  }
+const Payment = () => {
+  const location = useLocation();
+  const { money } = location.state || {};
+  const reduceByTwentyPercent = (amount) => {
+    return amount * 0.9;
+  };
 
 
   const url = `phonepe://pay?pa=fcbiza8brh2@freecharge&tn=Meesho%20Order&am=${reduceByTwentyPercent(
