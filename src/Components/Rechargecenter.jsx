@@ -78,7 +78,7 @@ const Rechargecenter = () => {
             <div className="special">SPECIAL</div>
             <div className="price-card">
               <div className="price-card-left">
-                <div className="special-price">₹99</div>
+                <div className="special-price">₹129</div>
                 <div className="price">₹1099</div>
               </div>
               <div>
