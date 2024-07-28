@@ -42,12 +42,6 @@ const Payment = () => {
                   }}
                 >
                   <div className="payment-method-name">Phone Pay</div>
-                  <div
-                    className="payment-extra"
-                    style={{ fontWeight: "700", marginRight: "10px" }}
-                  >
-                    -10% Extra
-                  </div>
                 </div>
               </div>
             </a>
