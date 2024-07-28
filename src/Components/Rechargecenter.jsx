@@ -65,7 +65,7 @@ const Rechargecenter = () => {
               <img className="subscription-icon" src={jiocloud} alt="" />
             </div>
             <div className="recharge-btn-div">
-              <button type="submit" className="recharge-btn" id="299" onClick={handleRecharge}>
+              <button type="submit" className="recharge-btn" id="199" onClick={handleRecharge}>
                 Recharge
               </button>
             </div>
@@ -110,7 +110,7 @@ const Rechargecenter = () => {
               <img className="subscription-icon" src={prime} alt="" />
             </div>
             <div className="recharge-btn-div">
-              <button type="submit" className="recharge-btn" id="238" onClick={handleRecharge}>
+              <button type="submit" className="recharge-btn" id="129" onClick={handleRecharge}>
                 Recharge
               </button>
             </div>
@@ -158,7 +158,7 @@ const Rechargecenter = () => {
               <img className="subscription-icon" src={sonyliv} alt="" />
             </div>
             <div className="recharge-btn-div">
-              <button type="submit" className="recharge-btn" id="288" onClick={handleRecharge}>
+              <button type="submit" className="recharge-btn" id="99" onClick={handleRecharge}>
                 Recharge
               </button>
             </div>
