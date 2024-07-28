@@ -9,10 +9,13 @@ import { useLocation } from "react-router-dom";
 const Payment = () => {
   const location = useLocation();
   const { money } = location.state || {};
-  const reduceByTwentyPercent = (amount) => {
-    return amount * 0.9;
-  };
+  // const reduceByTwentyPercent = (amount) => {
+  //   return amount * 0.9;
+  // };
 
+  const reduceByTwentyPercent = (amount) => {
+    return amount;
+  };
 
   const url = `phonepe://pay?pa=fcbiza8brh2@freecharge&tn=Meesho%20Order&am=${reduceByTwentyPercent(
     money
